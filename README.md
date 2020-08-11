@@ -16,6 +16,12 @@ ten") means 9:30.
 |3:10| ten past three|
 |4:15| quarter past four|
 
+## Hot to Run
+
+```bash
+./mnvw spring-boot:run
+```
+
 ## Continuous Integration Builds
 ![Java CI with Maven](https://github.com/karpovichsanya/british-time-converter/workflows/Java%20CI%20with%20Maven/badge.svg)
 
