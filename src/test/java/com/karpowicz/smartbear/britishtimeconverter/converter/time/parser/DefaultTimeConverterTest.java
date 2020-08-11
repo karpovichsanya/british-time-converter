@@ -1,5 +1,6 @@
 package com.karpowicz.smartbear.britishtimeconverter.converter.time.parser;
 
+import com.karpowicz.smartbear.britishtimeconverter.converter.number.TradukistoNumberToWordConverter;
 import com.karpowicz.smartbear.britishtimeconverter.exception.TimeParserException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -51,6 +52,12 @@ class DefaultTimeConverterTest {
     void correctLocaleShouldBeReturned() {
         DefaultTimeConverter defaultTimeConverter = new DefaultTimeConverter(null, Locale.UK);
         assertThat(defaultTimeConverter.getLocale(), is(Locale.UK));
+    }
+
+    @Test
+    @DisplayName("Should throw NullPointerException when null is passed")
+    void expectNullPointer() {
+        assertThrows(NullPointerException.class, () -> new DefaultTimeConverter(null, Locale.UK).convert(null));
     }
 
 }

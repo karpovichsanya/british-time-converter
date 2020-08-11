@@ -15,6 +15,7 @@ import java.util.function.Predicate;
 import static com.github.npathai.hamcrestopt.OptionalMatchers.isEmpty;
 import static com.github.npathai.hamcrestopt.OptionalMatchers.isPresentAndIs;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -53,5 +54,11 @@ class DefaultTimeParserTest {
         verify(timeTextRepresentationFunction, never()).apply(LocalTime.MIDNIGHT);
         verifyNoMoreInteractions(timePartPredicate);
         verifyNoInteractions(timeTextRepresentationFunction);
+    }
+
+    @Test
+    @DisplayName("Should throw NullPointerException when null is passed")
+    void expectNullPointer() {
+        assertThrows(NullPointerException.class, () -> defaultTimeParser.apply(null));
     }
 }

@@ -63,6 +63,13 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
+                <configuration>
+                    <excludes>
+                        <exclude>com/karpowicz/smartbear/britishtimeconverter/BritishTimeConverterApplication.class</exclude>
+                        <exclude>com/karpowicz/smartbear/britishtimeconverter/data/*.class</exclude>
+                        <exclude>com/karpowicz/smartbear/britishtimeconverter/runner/*.class</exclude>
+                    </excludes>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>

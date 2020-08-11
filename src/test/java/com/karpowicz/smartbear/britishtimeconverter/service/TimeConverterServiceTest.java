@@ -15,6 +15,7 @@ import java.util.Locale;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -40,5 +41,11 @@ class TimeConverterServiceTest {
         verify(timeConverterFactory).get(Locale.UK);
         verify(timeConverter).convert(LocalTime.MIDNIGHT);
         verifyNoMoreInteractions(timeConverterFactory, timeConverter);
+    }
+
+    @Test
+    @DisplayName("Should throw NullPointerException when null is passed")
+    void expectNullPointer() {
+        assertThrows(NullPointerException.class, () -> timeConverterService.convertTimeToWords(null));
     }
 }

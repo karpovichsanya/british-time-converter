@@ -12,9 +12,11 @@ import static java.time.temporal.ChronoField.HOUR_OF_AMPM;
  * Utility to convert time based objects
  */
 public class TimeUtils {
+    private static final String HH_MM_PATTERN = "H[H]:mm";
+    private static final int ONE_HOUR_MINUTES = 60;
 
-    public static final String HH_MM_PATTERN = "H[H]:mm";
-    public static final int ONE_HOUR_MINUTES = 60;
+    private TimeUtils() {
+    }
 
     /**
      * Converts {@link TimeData} time in {@code FormatStyle.SHORT}string to their

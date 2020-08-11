@@ -46,4 +46,10 @@ class TimeConverterFactoryTest {
         verify(localeTimeConverterMap).get(Locale.UK);
         verifyNoMoreInteractions(localeTimeConverterMap);
     }
+
+    @Test
+    @DisplayName("Should throw NullPointerException when null is passed")
+    void expectNullPointer() {
+        assertThrows(NullPointerException.class, () -> timeConverterFactory.get(null));
+    }
 }
