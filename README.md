@@ -17,6 +17,8 @@ ten") means 9:30.
 |4:15| quarter past four|
 
 ## Continuous Integration Builds
-
+![Java CI with Maven](https://github.com/karpovichsanya/british-time-converter/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 ## Code Coverage
+
+[![codecov](https://codecov.io/gh/karpovichsanya/british-time-converter/branch/master/graph/badge.svg)](https://codecov.io/gh/karpovichsanya/british-time-converter)
