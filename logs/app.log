@@ -1,0 +1,17 @@
+2020-08-11 16:47:59.269  INFO 7460 --- [main] c.k.s.b.BritishTimeConverterApplication  : Starting BritishTimeConverterApplication on DESKTOP-0A8PRDK with PID 7460 (C:\Users\karpo\IdeaProjects\british-time-converter\target\classes started by karpo in C:\Users\karpo\IdeaProjects\british-time-converter)
+2020-08-11 16:47:59.273  INFO 7460 --- [main] c.k.s.b.BritishTimeConverterApplication  : No active profile set, falling back to default profiles: default
+2020-08-11 16:47:59.885  INFO 7460 --- [main] c.k.s.b.BritishTimeConverterApplication  : Started BritishTimeConverterApplication in 1.009 seconds (JVM running for 1.833)
+2020-08-11 16:48:07.436  INFO 7460 --- [main] c.k.s.b.validator.TimeFormatValidator    : Validation failed for 12
+2020-08-11 16:49:19.312  INFO 2940 --- [main] c.k.s.b.BritishTimeConverterApplication  : Starting BritishTimeConverterApplication on DESKTOP-0A8PRDK with PID 2940 (C:\Users\karpo\IdeaProjects\british-time-converter\target\classes started by karpo in C:\Users\karpo\IdeaProjects\british-time-converter)
+2020-08-11 16:49:19.315  INFO 2940 --- [main] c.k.s.b.BritishTimeConverterApplication  : No active profile set, falling back to default profiles: default
+2020-08-11 16:49:19.946  INFO 2940 --- [main] c.k.s.b.BritishTimeConverterApplication  : Started BritishTimeConverterApplication in 1.018 seconds (JVM running for 1.839)
+2020-08-11 16:51:01.951  INFO 9168 --- [main] c.k.s.b.BritishTimeConverterApplication  : Starting BritishTimeConverterApplication on DESKTOP-0A8PRDK with PID 9168 (C:\Users\karpo\IdeaProjects\british-time-converter\target\classes started by karpo in C:\Users\karpo\IdeaProjects\british-time-converter)
+2020-08-11 16:51:01.954  INFO 9168 --- [main] c.k.s.b.BritishTimeConverterApplication  : No active profile set, falling back to default profiles: default
+2020-08-11 16:51:02.556  INFO 9168 --- [main] c.k.s.b.BritishTimeConverterApplication  : Started BritishTimeConverterApplication in 1.039 seconds (JVM running for 2.047)
+2020-08-11 16:51:06.217  INFO 9168 --- [main] c.k.s.b.service.TimeConverterService     : 12:00 is noon
+2020-08-11 16:51:55.501  INFO 16328 --- [main] c.k.s.b.BritishTimeConverterApplication  : Starting BritishTimeConverterApplication on DESKTOP-0A8PRDK with PID 16328 (C:\Users\karpo\IdeaProjects\british-time-converter\target\classes started by karpo in C:\Users\karpo\IdeaProjects\british-time-converter)
+2020-08-11 16:51:55.506  INFO 16328 --- [main] c.k.s.b.BritishTimeConverterApplication  : No active profile set, falling back to default profiles: default
+2020-08-11 16:51:56.115  INFO 16328 --- [main] c.k.s.b.BritishTimeConverterApplication  : Started BritishTimeConverterApplication in 1.009 seconds (JVM running for 1.824)
+2020-08-11 16:52:01.099  INFO 16328 --- [main] c.k.s.b.service.TimeConverterService     : 4:00 is four o' clock
+2020-08-11 16:52:06.584  INFO 16328 --- [main] c.k.s.b.validator.TimeFormatValidator    : Validation failed for 54:00
+2020-08-11 16:52:13.799  INFO 16328 --- [main] c.k.s.b.service.TimeConverterService     : 12:00 is noon
